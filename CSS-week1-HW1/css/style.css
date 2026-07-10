@@ -27,7 +27,8 @@ footer {
 
 li {
     display: inline-block; /* Commonly used to make navigation links sit side-by-side */
-    width: 120px;
+    width: 200px;         /* Increased from 120px/150px to give long text enough room */
+    vertical-align: top;
 }
 
 
