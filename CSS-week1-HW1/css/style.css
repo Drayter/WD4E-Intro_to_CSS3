@@ -11,6 +11,8 @@ header {
 
 nav {
     background-color: #31a847; /* Slightly lighter slate blue */
+    display: inline-block;
+    width: 80%;
 }
 
 
@@ -25,11 +27,14 @@ footer {
 }
 
 
+/* Requirement 3: Entirely commented out the li element styling */
+/*
 li {
-    display: inline-block; /* Commonly used to make navigation links sit side-by-side */
-    width: 200px;         /* Increased from 120px/150px to give long text enough room */
+    display: inline-block;
+    width: 200px;
     vertical-align: top;
 }
+*/
 
 
 h1 {
@@ -41,4 +46,33 @@ h1 {
 
 p {
     line-height: 1.6; /* Improves readability by spacing out sentences */
+}
+
+
+nav img {
+    width: 10%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    
+    /* Adjust these below to strictly match your assignment's layout screenshots */
+    justify-content: space-around; 
+    align-items: center;           
+    row-gap: 20px;                 
+}
+
+
+.grid img {
+    width: 100%;
+}
+
+
+.flex {
+    display: flex;
+    
+    /* Adjust these below to match your assignment's layout screenshots */
+    flex-wrap: wrap;
+    justify-content: space-around; 
 }
