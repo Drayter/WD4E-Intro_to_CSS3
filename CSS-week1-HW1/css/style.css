@@ -5,12 +5,12 @@ body{
 
 
 header {
-    background-color: #31a847; /* Dark slate blue */
+    background-color: #f8f9fa; /* Dark slate blue */
 }
 
 
 nav {
-    background-color: #31a847; /* Slightly lighter slate blue */
+    background-color: #f8f9fa; /* Slightly lighter slate blue */
     display: inline-block;
     width: 80%;
 }
@@ -23,7 +23,7 @@ main {
 
 
 footer {
-    background-color: #31a847; /* Dark slate blue */
+    background-color: #f8f9fa; /* Dark slate blue */
 }
 
 
